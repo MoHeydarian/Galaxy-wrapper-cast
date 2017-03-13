@@ -1,5 +1,5 @@
 <tool id="cast" name="cast" version="0.0.1">
-    <description>collapse combinations of variables:values to single lines</description>
+    <description>expand combinations of variables:values to https://raw.githubusercontent.com/MoHeydarian/Galaxy-wrapper-cast/master/cast.R format</description>
     <requirements>
         <requirement type="package">r-getopt</requirement>
         <requirement type="package">r-reshape2</requirement>
