@@ -30,5 +30,5 @@ cat("\n input: ",options$input)
 cat("\n output: ",options$output)
 
 input <- read.csv(options$input,sep='\t',header=TRUE)
-cinput <- cast(input, ... ~ variable)
+cinput <- dcast(input, ... ~ variable)
 write.table(cinput, "output.tabular", sep="\t", quote=FALSE, row.names=FALSE)
